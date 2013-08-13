@@ -1,15 +1,20 @@
-<title>Moods</title>
-<center><h1>Moods</h1></center>
+<div class="homepage">
+<title>m∞d</title>
+<center><img src="http://www.ucentral.edu.co/sites/egresados/images/stories/subportal_egresados/empresas/logo_mood.png" width="550" height="250"></img></center>	
+<center><h1 class="whatsyourmood">What's your mood?</h1></center>
 
-<body>	
-	<center><h1>Right now I'm feeling:</h1>
-	<form action="/moods" method="GET">
-		<select name="moods_id" id="moods_id">
-			<option value="">Please select</option>
-    		<option value="1" selected="selected">Sad</option>
-    		<option value="2">Happy</option>
-    		<option value="3">Angry</option>
-    		<option value="4">Bored</option>
+<body background = "http://www.zingerbug.com/Backgrounds/background_images/gray_watermark_paisley_background_seamless_pattern.jpg">	
+	<center><h1 class ="beforedropdown">Right now I'm feeling:</h1>
+	<p>
+		<form action="/moods" method="GET">			
+			<select class ="dropdown" name="moods_id" id="moods_id">
+				<option value="">Please select</option>
+	    		<option value="1" selected="selected">Sad</option>
+	    		<option value="2">Happy</option>
+	    		<option value="3">Angry</option>
+	    		<option value="4">Bored</option>
 		</select>
-	<button type="submit">GO</button></form></center>
-</body>
+		<button class="button" type="submit">GO</button></form></center>
+	</p>
+	</body>
+</div>
